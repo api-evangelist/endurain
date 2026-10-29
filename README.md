@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Endurain is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://github.com/endurain-project/endurain/
+Endurain provides a self‑hosted, privacy‑first fitness tracking platform that lets users store and analyze their activity, gear, and health data on their own infrastructure. The service offers a web dashboard, mobile apps, and integrations with Strava and Garmin, all under an AGPL‑3.0 license. Endurain emphasizes data ownership, no lock‑in, and community‑driven development, with documentation, a live demo, and open‑source code available.
+
+**Areas:** Company · Fitness · Self-hosted · Open-source · Privacy
+
+## Endurain on APIs.io
+
+Everything profiled for Endurain is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/endurain/](https://apis.io/providers/endurain/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Endurain API](https://apis.io/apis/endurain/endurain-api-2/) — The Endurain API is documented at https://docs.endurain.com and provides endpoints for activities, authentication, gear, health data, and integrations. The…
+- [Endurain API](https://apis.io/apis/endurain/endurain-api/) — Endurain API as documented publicly: 23 operations. Contract generated from the documentation by API Evangelist (2026-10-28); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetProfileApiKeysResponse](https://apis.io/schemas/endurain/endurain-get-profile-api-keys-response/)
+- [PostApiV1AuthMfaVerifyResponse](https://apis.io/schemas/endurain/endurain-post-api-v1-auth-mfa-verify-response/)
+- [PostApiV1ProfileApiKeysRequest](https://apis.io/schemas/endurain/endurain-post-api-v1-profile-api-keys-request/)
+- [PostApiV1ProfileApiKeysResponse](https://apis.io/schemas/endurain/endurain-post-api-v1-profile-api-keys-response/)
+- [PostApiV1PublicIdpSessionSessionidTokensResponse](https://apis.io/schemas/endurain/endurain-post-api-v1-public-idp-session-sessionid-tokens-response/)
+- [PostProfileIdpIdpidLinkTokenRequest](https://apis.io/schemas/endurain/endurain-post-profile-idp-idpid-link-token-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Endurain Context](https://apis.io/jsonld/endurain/endurain-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Endurain Openapi Overlay](https://apis.io/overlays/endurain/endurain-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Endurain API Rules](https://apis.io/rules/endurain/endurain-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Endurain Authentication](https://apis.io/security/endurain/endurain-authentication/)
+- [Endurain Domain Security](https://apis.io/security/endurain/endurain-domain-security/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Endurain Rate Limits](https://apis.io/rate-limits/endurain/endurain-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://endurain.com)
+- [Documentation](https://docs.endurain.com/)
+- [Getting started](https://docs.endurain.com/getting-started/quick-start/)
+- [API reference](https://docs.endurain.com/reference/gears/)
+- [Changelog](https://github.com/endurain-project/endurain/releases)
+- [GitHub](https://github.com/ThreeCO)
+
+## API Evangelist rating
+
+**Kin Score 43.3** — developing · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 53.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 49.5 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 20.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | — |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/endurain/](https://apis.io/providers/endurain/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Endurain: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/endurain/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
